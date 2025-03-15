@@ -1,0 +1,2 @@
+;; Generated package description from denote-markdown.el  -*- mode: lisp-data; no-byte-compile: t -*-
+(define-package "denote-markdown" "0.0.0.0.20250314.50820" "Extensions that better integrate Denote with Markdown" '((emacs "28.1") (denote "3.1.0")) :commit "f7d5fa4e68729b0e95d456d32aad11577d7e40dd" :authors '(("Protesilaos Stavrou" . "info@protesilaos.com")) :maintainer '("Protesilaos Stavrou" . "info@protesilaos.com") :url "https://github.com/protesilaos/denote-markdown")
