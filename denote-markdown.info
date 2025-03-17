@@ -1,4 +1,4 @@
-This is doclHqH55.info, produced by makeinfo version 6.8 from
+This is docU0GGU4.info, produced by makeinfo version 6.8 from
 denote-markdown.texi.
 
 Copyright (C) 2024-2025 Free Software Foundation, Inc.
@@ -20,7 +20,7 @@ START-INFO-DIR-ENTRY
 END-INFO-DIR-ENTRY
 
 
-File: doclHqH55.info,  Node: Top,  Next: Overview,  Up: (dir)
+File: docU0GGU4.info,  Node: Top,  Next: Overview,  Up: (dir)
 
 denote-markdown: Extensions to better integrate Markdown with Denote
 ********************************************************************
@@ -89,7 +89,7 @@ Indices
 
 
 
-File: doclHqH55.info,  Node: Overview,  Next: Installation,  Prev: Top,  Up: Top
+File: docU0GGU4.info,  Node: Overview,  Next: Installation,  Prev: Top,  Up: Top
 
 1 Overview
 **********
@@ -113,7 +113,7 @@ across their configuration.
 * Convert denote links to paths in Markdown or Obsidian style::
 
 
-File: doclHqH55.info,  Node: Use the markdown-obsidian file type,  Next: Convert denote links to paths in Markdown or Obsidian style,  Up: Overview
+File: docU0GGU4.info,  Node: Use the markdown-obsidian file type,  Next: Convert denote links to paths in Markdown or Obsidian style,  Up: Overview
 
 1.1 Use the ‘markdown-obsidian’ file type
 =========================================
@@ -127,7 +127,7 @@ core Denote, ‘markdown-obsidian’ does not have any front matter other
 than the title of the note as a top-level heading.
 
 
-File: doclHqH55.info,  Node: Convert denote links to paths in Markdown or Obsidian style,  Prev: Use the markdown-obsidian file type,  Up: Overview
+File: docU0GGU4.info,  Node: Convert denote links to paths in Markdown or Obsidian style,  Prev: Use the markdown-obsidian file type,  Up: Overview
 
 1.2 Convert ‘:denote’ links to paths in Markdown or Obsidian style
 ==================================================================
@@ -180,7 +180,7 @@ using.  Everything seems to work on my end, though do let me know if
 there are bugs.
 
 
-File: doclHqH55.info,  Node: Installation,  Next: Sample configuration,  Prev: Overview,  Up: Top
+File: docU0GGU4.info,  Node: Installation,  Next: Sample configuration,  Prev: Overview,  Up: Top
 
 2 Installation
 **************
@@ -191,7 +191,7 @@ File: doclHqH55.info,  Node: Installation,  Next: Sample configuration,  Prev: O
 * Manual installation::
 
 
-File: doclHqH55.info,  Node: GNU ELPA package,  Next: Manual installation,  Up: Installation
+File: docU0GGU4.info,  Node: GNU ELPA package,  Next: Manual installation,  Up: Installation
 
 2.1 GNU ELPA package
 ====================
@@ -210,7 +210,7 @@ archive.  Read:
 <https://protesilaos.com/codelog/2022-05-13-emacs-elpa-devel/>.
 
 
-File: doclHqH55.info,  Node: Manual installation,  Prev: GNU ELPA package,  Up: Installation
+File: docU0GGU4.info,  Node: Manual installation,  Prev: GNU ELPA package,  Up: Installation
 
 2.2 Manual installation
 =======================
@@ -237,7 +237,7 @@ following commands in a shell prompt:
    Everything is in place to set up the package.
 
 
-File: doclHqH55.info,  Node: Sample configuration,  Next: Acknowledgements,  Prev: Installation,  Up: Top
+File: docU0GGU4.info,  Node: Sample configuration,  Next: Acknowledgements,  Prev: Installation,  Up: Top
 
 3 Sample configuration
 **********************
@@ -251,7 +251,7 @@ File: doclHqH55.info,  Node: Sample configuration,  Next: Acknowledgements,  Pre
                    denote-markdown-convert-obsidian-links-to-denote-type ))
 
 
-File: doclHqH55.info,  Node: Acknowledgements,  Next: GNU Free Documentation License,  Prev: Sample configuration,  Up: Top
+File: docU0GGU4.info,  Node: Acknowledgements,  Next: GNU Free Documentation License,  Prev: Sample configuration,  Up: Top
 
 4 Acknowledgements
 ******************
@@ -263,7 +263,7 @@ Author/maintainer
      Protesilaos Stavrou.
 
 
-File: doclHqH55.info,  Node: GNU Free Documentation License,  Next: Indices,  Prev: Acknowledgements,  Up: Top
+File: docU0GGU4.info,  Node: GNU Free Documentation License,  Next: Indices,  Prev: Acknowledgements,  Up: Top
 
 Appendix A GNU Free Documentation License
 *****************************************
@@ -745,7 +745,7 @@ software license, such as the GNU General Public License, to permit
 their use in free software.
 
 
-File: doclHqH55.info,  Node: Indices,  Prev: GNU Free Documentation License,  Up: Top
+File: docU0GGU4.info,  Node: Indices,  Prev: GNU Free Documentation License,  Up: Top
 
 B Indices
 *********
@@ -757,7 +757,7 @@ B Indices
 * Concept index::
 
 
-File: doclHqH55.info,  Node: Function index,  Next: Variable index,  Up: Indices
+File: docU0GGU4.info,  Node: Function index,  Next: Variable index,  Up: Indices
 
 B.1 Function index
 ==================
@@ -775,13 +775,13 @@ B.1 Function index
                                                                (line 43)
 
 
-File: doclHqH55.info,  Node: Variable index,  Next: Concept index,  Prev: Function index,  Up: Indices
+File: docU0GGU4.info,  Node: Variable index,  Next: Concept index,  Prev: Function index,  Up: Indices
 
 B.2 Variable index
 ==================
 
 
-File: doclHqH55.info,  Node: Concept index,  Prev: Variable index,  Up: Indices
+File: docU0GGU4.info,  Node: Concept index,  Prev: Variable index,  Up: Indices
 
 B.3 Concept index
 =================
