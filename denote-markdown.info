@@ -1,4 +1,4 @@
-This is doc9X36tK.info, produced by makeinfo version 6.8 from
+This is doccfOgRk.info, produced by makeinfo version 6.8 from
 denote-markdown.texi.
 
 Copyright (C) 2024-2025 Free Software Foundation, Inc.
@@ -20,7 +20,7 @@ START-INFO-DIR-ENTRY
 END-INFO-DIR-ENTRY
 
 
-File: doc9X36tK.info,  Node: Top,  Next: Overview,  Up: (dir)
+File: doccfOgRk.info,  Node: Top,  Next: Overview,  Up: (dir)
 
 denote-markdown: Extensions to better integrate Markdown with Denote
 ********************************************************************
@@ -44,12 +44,13 @@ customization options for the Emacs package called ‘denote-markdown’ (or
 pertinent to it.
 
    The documentation furnished herein corresponds to stable version
-0.0.0, released on N/A.  Any reference to a newer feature which does not
-yet form part of the latest tagged commit, is explicitly marked as such.
+0.1.0, released on 2025-04-15.  Any reference to a newer feature which
+does not yet form part of the latest tagged commit, is explicitly marked
+as such.
 
-   Current development target is 0.1.0-dev.
+   Current development target is 0.2.0-dev.
 
-   • Package name (GNU ELPA): ‘denote-markdown’ (⚠️ Not available yet)
+   • Package name (GNU ELPA): ‘denote-markdown’
    • Official manual: <https://protesilaos.com/emacs/denote-markdown>
    • Git repository: <https://github.com/protesilaos/denote-markdown>
    • Backronyms: Denote... Markdown’s Ambitious Reimplimentations
@@ -89,7 +90,7 @@ Indices
 
 
 
-File: doc9X36tK.info,  Node: Overview,  Next: Installation,  Prev: Top,  Up: Top
+File: doccfOgRk.info,  Node: Overview,  Next: Installation,  Prev: Top,  Up: Top
 
 1 Overview
 **********
@@ -113,7 +114,7 @@ across their configuration.
 * Convert denote links to paths in Markdown or Obsidian style::
 
 
-File: doc9X36tK.info,  Node: Use the markdown-obsidian file type,  Next: Convert denote links to paths in Markdown or Obsidian style,  Up: Overview
+File: doccfOgRk.info,  Node: Use the markdown-obsidian file type,  Next: Convert denote links to paths in Markdown or Obsidian style,  Up: Overview
 
 1.1 Use the ‘markdown-obsidian’ file type
 =========================================
@@ -127,7 +128,7 @@ core Denote, ‘markdown-obsidian’ does not have any front matter other
 than the title of the note as a top-level heading.
 
 
-File: doc9X36tK.info,  Node: Convert denote links to paths in Markdown or Obsidian style,  Prev: Use the markdown-obsidian file type,  Up: Overview
+File: doccfOgRk.info,  Node: Convert denote links to paths in Markdown or Obsidian style,  Prev: Use the markdown-obsidian file type,  Up: Overview
 
 1.2 Convert ‘:denote’ links to paths in Markdown or Obsidian style
 ==================================================================
@@ -180,7 +181,7 @@ using.  Everything seems to work on my end, though do let me know if
 there are bugs.
 
 
-File: doc9X36tK.info,  Node: Installation,  Next: Sample configuration,  Prev: Overview,  Up: Top
+File: doccfOgRk.info,  Node: Installation,  Next: Sample configuration,  Prev: Overview,  Up: Top
 
 2 Installation
 **************
@@ -191,7 +192,7 @@ File: doc9X36tK.info,  Node: Installation,  Next: Sample configuration,  Prev: O
 * Manual installation::
 
 
-File: doc9X36tK.info,  Node: GNU ELPA package,  Next: Manual installation,  Up: Installation
+File: doccfOgRk.info,  Node: GNU ELPA package,  Next: Manual installation,  Up: Installation
 
 2.1 GNU ELPA package
 ====================
@@ -210,7 +211,7 @@ archive.  Read:
 <https://protesilaos.com/codelog/2022-05-13-emacs-elpa-devel/>.
 
 
-File: doc9X36tK.info,  Node: Manual installation,  Prev: GNU ELPA package,  Up: Installation
+File: doccfOgRk.info,  Node: Manual installation,  Prev: GNU ELPA package,  Up: Installation
 
 2.2 Manual installation
 =======================
@@ -237,7 +238,7 @@ following commands in a shell prompt:
    Everything is in place to set up the package.
 
 
-File: doc9X36tK.info,  Node: Sample configuration,  Next: Acknowledgements,  Prev: Installation,  Up: Top
+File: doccfOgRk.info,  Node: Sample configuration,  Next: Acknowledgements,  Prev: Installation,  Up: Top
 
 3 Sample configuration
 **********************
@@ -251,7 +252,7 @@ File: doc9X36tK.info,  Node: Sample configuration,  Next: Acknowledgements,  Pre
                    denote-markdown-convert-obsidian-links-to-denote-type ))
 
 
-File: doc9X36tK.info,  Node: Acknowledgements,  Next: GNU Free Documentation License,  Prev: Sample configuration,  Up: Top
+File: doccfOgRk.info,  Node: Acknowledgements,  Next: GNU Free Documentation License,  Prev: Sample configuration,  Up: Top
 
 4 Acknowledgements
 ******************
@@ -263,7 +264,7 @@ Author/maintainer
      Protesilaos Stavrou.
 
 
-File: doc9X36tK.info,  Node: GNU Free Documentation License,  Next: Indices,  Prev: Acknowledgements,  Up: Top
+File: doccfOgRk.info,  Node: GNU Free Documentation License,  Next: Indices,  Prev: Acknowledgements,  Up: Top
 
 Appendix A GNU Free Documentation License
 *****************************************
@@ -745,7 +746,7 @@ software license, such as the GNU General Public License, to permit
 their use in free software.
 
 
-File: doc9X36tK.info,  Node: Indices,  Prev: GNU Free Documentation License,  Up: Top
+File: doccfOgRk.info,  Node: Indices,  Prev: GNU Free Documentation License,  Up: Top
 
 B Indices
 *********
@@ -757,7 +758,7 @@ B Indices
 * Concept index::
 
 
-File: doc9X36tK.info,  Node: Function index,  Next: Variable index,  Up: Indices
+File: doccfOgRk.info,  Node: Function index,  Next: Variable index,  Up: Indices
 
 B.1 Function index
 ==================
@@ -775,13 +776,13 @@ B.1 Function index
                                                                (line 43)
 
 
-File: doc9X36tK.info,  Node: Variable index,  Next: Concept index,  Prev: Function index,  Up: Indices
+File: doccfOgRk.info,  Node: Variable index,  Next: Concept index,  Prev: Function index,  Up: Indices
 
 B.2 Variable index
 ==================
 
 
-File: doc9X36tK.info,  Node: Concept index,  Prev: Variable index,  Up: Indices
+File: doccfOgRk.info,  Node: Concept index,  Prev: Variable index,  Up: Indices
 
 B.3 Concept index
 =================
@@ -797,19 +798,19 @@ B.3 Concept index
 
 Tag Table:
 Node: Top882
-Node: Overview3190
-Node: Use the markdown-obsidian file type4127
-Node: Convert denote links to paths in Markdown or Obsidian style4840
-Node: Installation7661
-Node: GNU ELPA package7848
-Node: Manual installation8418
-Node: Sample configuration9223
-Node: Acknowledgements9762
-Node: GNU Free Documentation License10050
-Node: Indices35411
-Node: Function index35587
-Node: Variable index36470
-Node: Concept index36615
+Node: Overview3170
+Node: Use the markdown-obsidian file type4107
+Node: Convert denote links to paths in Markdown or Obsidian style4820
+Node: Installation7641
+Node: GNU ELPA package7828
+Node: Manual installation8398
+Node: Sample configuration9203
+Node: Acknowledgements9742
+Node: GNU Free Documentation License10030
+Node: Indices35391
+Node: Function index35567
+Node: Variable index36450
+Node: Concept index36595
 
 End Tag Table
 
