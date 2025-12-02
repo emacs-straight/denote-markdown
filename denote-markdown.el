@@ -5,7 +5,7 @@
 ;; Author: Protesilaos Stavrou <info@protesilaos.com>
 ;; Maintainer: Protesilaos Stavrou <info@protesilaos.com>
 ;; URL: https://github.com/protesilaos/denote-markdown
-;; Version: 0.2.0
+;; Version: 0.2.1
 ;; Package-Requires: ((emacs "28.1") (denote "4.0.0"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -59,9 +59,9 @@
 TYPE is a symbol among `denote', `file', `obsidian', and `reverse-obsidian'."
   (pcase type
     ('denote "(denote:\\(?1:.*?\\))")
-    ('file (format "(.*?\\(?1:%s\\).*?)" denote-id-regexp))
+    ('file (format "(.*?\\(?1:%s\\).*?)" denote-date-identifier-regexp))
     ('obsidian "\\(?2:\\[.*?\\]\\)(denote:\\(?1:.*?\\))")
-    ('reverse-obsidian (format "\\(?2:\\[.*?\\(?:%s\\).*?\\]\\)(\\(?1:.*?\\(?:%s\\).*?\\))" denote-id-regexp denote-id-regexp))
+    ('reverse-obsidian (format "\\(?2:\\[.*?\\(?:%s\\).*?\\]\\)(\\(?1:.*?\\(?:%s\\).*?\\))" denote-date-identifier-regexp denote-date-identifier-regexp))
     (_ (error "`%s' is an unknown type of link" type))))
 
 ;;;###autoload
@@ -145,7 +145,7 @@ Also see `denote-markdown-convert-links-to-denote-type'."
                   (id nil)
                   (description nil))
               (save-match-data
-                (setq file (expand-file-name (match-string-no-properties 1) (denote-directory))
+                (setq file (expand-file-name (match-string-no-properties 1) (car (denote-directories)))
                       id (denote-retrieve-filename-identifier file)
                       description (denote-get-link-description file)))
               (when id
