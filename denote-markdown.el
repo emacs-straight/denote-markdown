@@ -5,7 +5,7 @@
 ;; Author: Protesilaos Stavrou <info@protesilaos.com>
 ;; Maintainer: Protesilaos Stavrou <info@protesilaos.com>
 ;; URL: https://github.com/protesilaos/denote-markdown
-;; Version: 0.2.1
+;; Version: 0.2.2
 ;; Package-Requires: ((emacs "28.1") (denote "4.0.0"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -41,16 +41,35 @@
 
 ;;;; Register a new file type
 
+(defun denote-get-file-type-markdown-obsidian (file)
+  "Return `markdown-obsidian' if FILE only has a # title.
+Also see `denote-get-file-type-markdown-yaml' and
+`denote-get-file-type-markdown-toml'."
+  (with-temp-buffer
+    (insert-file-contents file)
+    (goto-char (point-min))
+    (when (looking-at "^# ")
+      'markdown-obsidian)))
+
 (add-to-list
  'denote-file-types
  '(markdown-obsidian
    :extension ".md"
+   :get-file-type-function denote-get-file-type-markdown-obsidian
    :front-matter "# %s\n\n"
    :title-key-regexp "^# "
    :title-value-function identity
    :title-value-reverse-function identity
    :link denote-md-link-format
-   :link-in-context-regexp denote-md-link-in-context-regexp))
+   :link-retrieval-format "(denote:%VALUE%)"
+   :link-in-context-regexp denote-md-link-in-context-regexp)
+ ;; NOTE 2026-04-23: Right now a Markdown file with a level 1 heading
+ ;; will be treated as a `markdown-obsidian' file.  This is because of
+ ;; how we were adding this file type to the front of `denote-file-types'.
+ ;;
+ ;; TODO 2026-04-23: What we need to do eventually is be more smart
+ ;; about this.
+ :append)
 
 ;;;; Convert links
 
