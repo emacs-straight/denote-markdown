@@ -45,11 +45,12 @@
   "Return `markdown-obsidian' if FILE only has a # title.
 Also see `denote-get-file-type-markdown-yaml' and
 `denote-get-file-type-markdown-toml'."
-  (with-temp-buffer
-    (insert-file-contents file)
-    (goto-char (point-min))
-    (when (looking-at "^# ")
-      'markdown-obsidian)))
+  (when (file-exists-p file)
+    (with-temp-buffer
+      (insert-file-contents file)
+      (goto-char (point-min))
+      (when (looking-at "^# ")
+        'markdown-obsidian))))
 
 (add-to-list
  'denote-file-types
@@ -100,7 +101,7 @@ relative to the variable `denote-directory'."
             (when-let* ((id (match-string-no-properties 1))
                         (file (save-match-data
                                 (if absolute
-                                    (denote-get-path-by-id id)
+                                    (funcall denote-get-path-by-id-function id)
                                   (denote-get-relative-path-by-id id)))))
               (replace-match (format "(%s)" file) :fixed-case :literal)
               (setq count (1+ count))))
